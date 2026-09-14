@@ -1,0 +1,115 @@
+@import 'tailwindcss';
+
+/**
+ * Design tokens.
+ *
+ * Built for a 15-year-old holding a phone: large touch targets, generous type,
+ * and colour used to mean something (level, right, wrong) rather than decorate.
+ * Dark mode follows the device, because that is how phones are actually used.
+ */
+@theme {
+  --font-sans:
+    'Inter var', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+    sans-serif;
+
+  /* Level colours, used consistently everywhere a level appears. */
+  --color-level-1: oklch(0.72 0.15 162);
+  --color-level-2: oklch(0.75 0.15 75);
+  --color-level-3: oklch(0.68 0.18 300);
+
+  --radius-card: 1rem;
+}
+
+:root {
+  --bg: oklch(0.98 0.005 250);
+  --bg-raised: oklch(1 0 0);
+  --bg-sunken: oklch(0.95 0.008 250);
+  --border: oklch(0.9 0.01 250);
+  --text: oklch(0.24 0.02 265);
+  --text-muted: oklch(0.52 0.02 265);
+  --accent: oklch(0.55 0.19 265);
+  --accent-text: oklch(0.99 0 0);
+  --correct: oklch(0.62 0.16 155);
+  --correct-bg: oklch(0.95 0.05 155);
+  --wrong: oklch(0.6 0.2 20);
+  --wrong-bg: oklch(0.96 0.04 20);
+  --partial: oklch(0.72 0.15 75);
+  --partial-bg: oklch(0.96 0.06 85);
+
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: oklch(0.19 0.02 265);
+    --bg-raised: oklch(0.24 0.02 265);
+    --bg-sunken: oklch(0.16 0.02 265);
+    --border: oklch(0.33 0.02 265);
+    --text: oklch(0.95 0.01 265);
+    --text-muted: oklch(0.68 0.02 265);
+    --accent: oklch(0.68 0.16 265);
+    --accent-text: oklch(0.16 0.02 265);
+    --correct: oklch(0.72 0.16 155);
+    --correct-bg: oklch(0.28 0.06 155);
+    --wrong: oklch(0.7 0.17 20);
+    --wrong-bg: oklch(0.28 0.07 20);
+    --partial: oklch(0.78 0.14 80);
+    --partial-bg: oklch(0.3 0.06 80);
+  }
+}
+
+html {
+  /* Stop iOS Safari inflating text in landscape. */
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  /* Room for the home indicator on notched phones. */
+  padding-bottom: env(safe-area-inset-bottom);
+  overscroll-behavior-y: none;
+}
+
+/* Touch targets: 44px is the smallest reliably tappable size. */
+button,
+[role='button'],
+input,
+select,
+textarea {
+  font: inherit;
+  min-height: 2.75rem;
+}
+
+button {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+/* Visible focus for keyboard users, invisible for mouse/touch. */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@utility surface {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+}
+
+@utility muted {
+  color: var(--text-muted);
+}

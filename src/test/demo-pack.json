@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 1,
+  "id": "historia-vk2",
+  "subject": "Historia",
+  "title": "Andra världskriget",
+  "language": "sv",
+  "grade": "åk 9",
+  "description": "Orsaker, förlopp och följder av andra världskriget 1939–1945.",
+  "source": "Startpaket skrivet för hand — byts ut mot material från hennes SO-bok.",
+  "createdAt": "2026-08-24",
+  "topics": [
+    {
+      "id": "orsaker",
+      "title": "Krigets orsaker",
+      "description": "Versaillesfreden, 1930-talets kris och vägen fram till september 1939."
+    },
+    {
+      "id": "forlopp",
+      "title": "Krigets förlopp",
+      "description": "Från anfallet på Polen till kapitulationerna 1945."
+    },
+    {
+      "id": "foljder",
+      "title": "Förintelsen och följderna",
+      "description": "Folkmordet, efterkrigstiden och den nya världsordningen."
+    }
+  ],
+  "assets": {},
+  "studyNotes": [
+    {
+      "id": "not-orsaker",
+      "topicId": "orsaker",
+      "title": "Varför bröt kriget ut?",
+      "markdown": "## Kort sammanfattning\n\nEfter första världskriget tvingades Tyskland genom **Versaillesfreden** (1919) att ta på sig skulden för kriget, betala stora skadestånd och lämna ifrån sig landområden. Många tyskar upplevde freden som en förödmjukelse.\n\nNär **börskraschen 1929** utlöste en världsomfattande depression drabbades Tyskland hårt. Massarbetslöshet och misstro mot demokratin gjorde att väljare sökte sig till ytterlighetspartier.\n\n### Nazisternas väg till makten\n\n- 1933 blir Hitler rikskansler.\n- Demokratin avskaffas steg för steg och Tyskland blir en diktatur.\n- Upprustningen sätter igång, i strid med Versaillesfreden.\n\n### Eftergiftspolitiken\n\nStorbritannien och Frankrike valde länge att ge efter för Hitlers krav för att undvika ett nytt krig — det kallas **eftergiftspolitik** (*appeasement*). I München 1938 fick Tyskland ta Sudetområdet i Tjeckoslovakien. Hitler tolkade eftergifterna som svaghet.\n\n### Sista steget\n\nI augusti 1939 slöt Tyskland och Sovjetunionen **Molotov–Ribbentrop-pakten**, en icke-angreppspakt med ett hemligt tillägg om att dela upp Östeuropa. Den 1 september 1939 anföll Tyskland Polen, och två dagar senare förklarade Storbritannien och Frankrike krig."
+    },
+    {
+      "id": "not-forlopp",
+      "topicId": "forlopp",
+      "title": "Krigets gång 1939–1945",
+      "markdown": "## Vändpunkterna\n\n| År | Händelse | Varför den spelade roll |\n|---|---|---|\n| 1939 | Anfallet på Polen | Kriget börjar |\n| 1940 | Frankrike faller | Tyskland dominerar Västeuropa |\n| 1941 | Operation Barbarossa | Tyskland anfaller Sovjet — tvåfrontskrig |\n| 1941 | Pearl Harbor | USA går med i kriget |\n| 1942–43 | Stalingrad | Tysk framryckning i öst bryts |\n| 1944 | D-dagen | Västfronten öppnas i Normandie |\n| 1945 | Kapitulationerna | Kriget slutar i Europa och Asien |\n\n### Blixtkrig\n\nTysklands tidiga framgångar byggde på **blixtkrig** (*Blitzkrieg*): snabba anfall där stridsvagnar och flyg samverkade för att bryta igenom fiendens linjer innan försvaret hann organisera sig.\n\n### Varför vände det?\n\nTre saker brukar lyftas fram: tvåfrontskriget mot Sovjetunionen, USA:s enorma industriella kapacitet, och att Tyskland saknade resurser — särskilt olja — för ett långt krig."
+    },
+    {
+      "id": "not-foljder",
+      "topicId": "foljder",
+      "title": "Förintelsen och efterkrigstiden",
+      "markdown": "## Förintelsen\n\nNazisternas systematiska folkmord på Europas judar kostade omkring **sex miljoner** människor livet. Även romer, funktionsnedsatta, politiska motståndare, homosexuella och sovjetiska krigsfångar mördades i stor skala.\n\nFolkmordet skedde i steg: först utpekande och lagar som uteslöt judar ur samhället, sedan getton och massavrättningar, till sist förintelseläger som Auschwitz-Birkenau.\n\n## Efter kriget\n\n- **Nürnbergrättegångarna** (1945–46) prövade ledande nazister för brott mot mänskligheten. Principen att man inte kan skylla på order fick genomslag.\n- **FN** grundades 1945 för att förhindra ett nytt världskrig.\n- Europa delades i en västlig och en östlig intressesfär — början på **kalla kriget**.\n- Cirka 60–70 miljoner människor hade dött, de flesta av dem civila."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-start-datum",
+      "type": "mcq",
+      "topicId": "forlopp",
+      "level": 1,
+      "prompt": "Vilken händelse räknas som starten på andra världskriget i Europa?",
+      "options": [
+        { "id": "a", "text": "Tyskland anfaller Polen den 1 september 1939" },
+        { "id": "b", "text": "Japan anfaller Pearl Harbor den 7 december 1941" },
+        { "id": "c", "text": "Tyskland anfaller Sovjetunionen den 22 juni 1941" },
+        { "id": "d", "text": "München-överenskommelsen i september 1938" }
+      ],
+      "answer": "a",
+      "explanation": "Kriget räknas från den 1 september 1939, när Tyskland anföll Polen. Två dagar senare förklarade Storbritannien och Frankrike krig mot Tyskland. De andra händelserna är viktiga, men de kom antingen före kriget (München) eller vidgade ett krig som redan pågick."
+    },
+    {
+      "id": "q-versailles",
+      "type": "mcq",
+      "topicId": "orsaker",
+      "level": 1,
+      "prompt": "Vad innebar Versaillesfreden 1919 för Tyskland?",
+      "options": [
+        { "id": "a", "text": "Tyskland fick behålla alla sina kolonier mot att man avväpnade" },
+        { "id": "b", "text": "Tyskland tvingades ta på sig krigsskulden, betala skadestånd och lämna landområden" },
+        { "id": "c", "text": "Tyskland delades i en västlig och en östlig del" },
+        { "id": "d", "text": "Tyskland fick ekonomiskt stöd för att bygga upp landet igen" }
+      ],
+      "answer": "b",
+      "explanation": "Versaillesfreden lade skulden för första världskriget på Tyskland, krävde stora skadestånd, begränsade militären och tog landområden. Många tyskar såg freden som en förödmjukelse, vilket nazisterna senare utnyttjade. Delningen av Tyskland (alternativ c) skedde först efter andra världskriget."
+    },
+    {
+      "id": "q-hitler-ar",
+      "type": "numeric",
+      "topicId": "orsaker",
+      "level": 1,
+      "prompt": "Vilket år blev Hitler rikskansler i Tyskland?",
+      "answer": 1933,
+      "unit": "",
+      "explanation": "Hitler utsågs till rikskansler den 30 januari 1933. Under det året avvecklades demokratin steg för steg och Tyskland blev en diktatur."
+    },
+    {
+      "id": "q-blixtkrig",
+      "type": "short",
+      "topicId": "forlopp",
+      "level": 1,
+      "prompt": "Vad kallas den tyska anfallstaktiken där stridsvagnar och flyg snabbt bryter igenom fiendens linjer?",
+      "accept": ["blixtkrig", "blitzkrieg", "blixtkriget"],
+      "spellingTolerance": true,
+      "placeholder": "Ett ord",
+      "explanation": "Blixtkrig (tyska: Blitzkrieg) byggde på fart och samverkan mellan stridsvagnar, flyg och infanteri. Målet var att bryta igenom och omringa fienden innan försvaret hann organisera sig — därför gick det så snabbt i Polen 1939 och Frankrike 1940."
+    },
+    {
+      "id": "q-tf-sverige",
+      "type": "truefalse",
+      "topicId": "foljder",
+      "level": 1,
+      "prompt": "Sverige var med i andra världskriget på de allierades sida.",
+      "answer": false,
+      "explanation": "Falskt. Sverige var formellt neutralt under hela kriget. Neutraliteten var dock långt ifrån renodlad: Sverige sålde järnmalm till Tyskland och tillät under en period tysk permittenttrafik på svenska järnvägar."
+    },
+    {
+      "id": "q-pearl-harbor",
+      "type": "mcq",
+      "topicId": "forlopp",
+      "level": 1,
+      "prompt": "Vilken följd fick det japanska anfallet på Pearl Harbor 1941?",
+      "options": [
+        { "id": "a", "text": "Sovjetunionen bytte sida och gick med Tyskland" },
+        { "id": "b", "text": "USA gick in i kriget" },
+        { "id": "c", "text": "Storbritannien slöt fred med Tyskland" },
+        { "id": "d", "text": "Japan tvingades kapitulera omedelbart" }
+      ],
+      "answer": "b",
+      "explanation": "Anfallet den 7 december 1941 fick USA att förklara krig mot Japan, och kort därefter förklarade Tyskland krig mot USA. Därmed blev kriget på allvar globalt, och USA:s industri kom att spela en avgörande roll för de allierade."
+    },
+    {
+      "id": "q-cloze-1939",
+      "type": "cloze",
+      "topicId": "forlopp",
+      "level": 1,
+      "prompt": "Den 1 september {{ar}} anföll Tyskland {{land}}, och två dagar senare förklarade Storbritannien och Frankrike krig.",
+      "blanks": [
+        { "id": "ar", "accept": ["1939"] },
+        { "id": "land", "accept": ["Polen"], "spellingTolerance": true }
+      ],
+      "explanation": "Anfallet på Polen den 1 september 1939 utlöste krigsförklaringarna den 3 september. Polen delades kort därefter mellan Tyskland och Sovjetunionen, i enlighet med det hemliga tillägget till Molotov–Ribbentrop-pakten."
+    },
+    {
+      "id": "q-fc-appeasement",
+      "type": "flashcard",
+      "topicId": "orsaker",
+      "level": 1,
+      "prompt": "Eftergiftspolitik (appeasement)",
+      "back": "Storbritanniens och Frankrikes politik under 1930-talet att gå med på Hitlers krav för att undvika krig. Tydligast i München 1938, då Tyskland fick ta Sudetområdet.",
+      "explanation": "Hitler tolkade eftergifterna som svaghet och ställde nya krav — vilket är den vanligaste kritiken mot politiken."
+    },
+    {
+      "id": "q-fc-barbarossa",
+      "type": "flashcard",
+      "topicId": "forlopp",
+      "level": 1,
+      "prompt": "Operation Barbarossa",
+      "back": "Tysklands anfall på Sovjetunionen den 22 juni 1941. Det bröt Molotov–Ribbentrop-pakten och tvingade Tyskland till krig på två fronter."
+    },
+    {
+      "id": "q-fc-forintelsen",
+      "type": "flashcard",
+      "topicId": "foljder",
+      "level": 1,
+      "prompt": "Förintelsen",
+      "back": "Nazisternas systematiska folkmord på Europas judar, där omkring sex miljoner människor mördades. Även romer, funktionsnedsatta, politiska motståndare och andra grupper drabbades."
+    },
+    {
+      "id": "q-multi-allierade",
+      "type": "multi",
+      "topicId": "forlopp",
+      "level": 2,
+      "prompt": "Vilka av följande länder tillhörde de allierade under andra världskriget?",
+      "options": [
+        { "id": "a", "text": "Storbritannien" },
+        { "id": "b", "text": "Sovjetunionen (från juni 1941)" },
+        { "id": "c", "text": "Italien" },
+        { "id": "d", "text": "USA (från december 1941)" },
+        { "id": "e", "text": "Japan" }
+      ],
+      "answers": ["a", "b", "d"],
+      "explanation": "Storbritannien, Sovjetunionen och USA var de tre stora allierade makterna. Italien och Japan tillhörde axelmakterna tillsammans med Tyskland. Notera datumen: Sovjetunionen blev allierat först när Tyskland anföll landet, och USA först efter Pearl Harbor."
+    },
+    {
+      "id": "q-tvafront",
+      "type": "short",
+      "topicId": "forlopp",
+      "level": 2,
+      "prompt": "Förklara med egna ord varför anfallet på Sovjetunionen 1941 blev ett problem för Tyskland.",
+      "accept": ["tvåfrontskrig", "två fronter", "tvafrontskrig", "krig på två fronter"],
+      "spellingTolerance": true,
+      "placeholder": "Nyckelbegreppet",
+      "explanation": "Tyskland hamnade i ett tvåfrontskrig: man stred mot Storbritannien i väster samtidigt som man band enorma resurser i öster. Sovjetunionen hade dessutom ett stort djup, en hård vinter och en industri som flyttades österut utom räckhåll — kriget i öst blev långt, och långa krig passade inte den tyska strategin."
+    },
+    {
+      "id": "q-stalingrad",
+      "type": "mcq",
+      "topicId": "forlopp",
+      "level": 2,
+      "prompt": "Varför brukar slaget vid Stalingrad kallas en vändpunkt i kriget?",
+      "options": [
+        { "id": "a", "text": "Det var första gången USA deltog i strid i Europa" },
+        { "id": "b", "text": "Tyskland förlorade en hel armé och gick från anfall till reträtt i öst" },
+        { "id": "c", "text": "Sovjetunionen erövrade Berlin i samband med slaget" },
+        { "id": "d", "text": "Det ledde direkt till att Italien bytte sida" }
+      ],
+      "answer": "b",
+      "explanation": "Vid Stalingrad (1942–43) omringades och tillintetgjordes den tyska 6:e armén. Efter det gick initiativet i öst över till Sovjetunionen, som därefter i huvudsak avancerade västerut hela vägen till Berlin 1945. Slaget var alltså en vändpunkt i riktning, inte ett avgörande slut."
+    },
+    {
+      "id": "q-cloze-vandpunkter",
+      "type": "cloze",
+      "topicId": "forlopp",
+      "level": 2,
+      "prompt": "Västfronten öppnades på allvar genom landstigningen i {{plats}} den 6 juni 1944, en dag som brukar kallas {{dag}}.",
+      "blanks": [
+        { "id": "plats", "accept": ["Normandie"], "spellingTolerance": true },
+        { "id": "dag", "accept": ["D-dagen", "D dagen", "D-day", "dagen D"], "options": ["D-dagen", "V-dagen", "Långfredagen", "Kristallnatten"] }
+      ],
+      "explanation": "D-dagen den 6 juni 1944 var den största landstigningsoperationen i historien. Med en aktiv västfront tvingades Tyskland dela sina resurser mellan öst och väst, vilket påskyndade nederlaget."
+    },
+    {
+      "id": "q-tf-eftergift",
+      "type": "truefalse",
+      "topicId": "orsaker",
+      "level": 2,
+      "prompt": "Eftergiftspolitiken i München 1938 stoppade Hitlers fortsatta expansion.",
+      "answer": false,
+      "explanation": "Falskt. Trots överenskommelsen i München tog Tyskland resten av Tjeckoslovakien i mars 1939 och anföll Polen i september samma år. Eftergifterna sköt upp kriget men förhindrade det inte — Hitler uppfattade dem tvärtom som ett tecken på svaghet."
+    },
+    {
+      "id": "q-multi-orsaker",
+      "type": "multi",
+      "topicId": "orsaker",
+      "level": 2,
+      "prompt": "Vilka faktorer bidrog till att nazisterna kunde ta makten i Tyskland?",
+      "options": [
+        { "id": "a", "text": "Missnöje med Versaillesfreden" },
+        { "id": "b", "text": "Massarbetslöshet efter börskraschen 1929" },
+        { "id": "c", "text": "Svagt förtroende för den demokratiska Weimarrepubliken" },
+        { "id": "d", "text": "Tyskland hade vunnit första världskriget och ville expandera vidare" }
+      ],
+      "answers": ["a", "b", "c"],
+      "explanation": "De tre första hänger ihop: en fred som upplevdes som orättvis, en ekonomisk katastrof och ett svagt förtroende för demokratin gjorde att många sökte sig till ytterlighetspartier. Alternativ d är fel — Tyskland förlorade första världskriget, och just förlusten var en del av grunden för missnöjet."
+    },
+    {
+      "id": "q-forintelsen-antal",
+      "type": "numeric",
+      "topicId": "foljder",
+      "level": 2,
+      "prompt": "Ungefär hur många miljoner judar mördades under Förintelsen?",
+      "answer": 6,
+      "tolerance": 0.5,
+      "unit": "miljoner",
+      "explanation": "Omkring sex miljoner judar mördades. Siffran är en uppskattning byggd på folkbokföring, transportlistor och tyska egna dokument — den exakta summan går inte att fastställa, men storleksordningen är väl belagd."
+    },
+    {
+      "id": "q-fn",
+      "type": "short",
+      "topicId": "foljder",
+      "level": 2,
+      "prompt": "Vilken världsomspännande organisation grundades 1945 för att förhindra ett nytt världskrig?",
+      "accept": ["FN", "Förenta Nationerna", "Forenta Nationerna", "United Nations", "UN"],
+      "explanation": "Förenta Nationerna (FN) grundades 1945. Tanken var att stater skulle lösa konflikter genom förhandling i stället för krig — en lärdom av att föregångaren Nationernas förbund misslyckats med just det under 1930-talet."
+    },
+    {
+      "id": "q-analys-vande",
+      "type": "multi",
+      "topicId": "forlopp",
+      "level": 3,
+      "prompt": "En historiker ska förklara varför Tyskland förlorade kriget trots framgångarna 1939–41. Vilka förklaringar har starkast stöd?",
+      "options": [
+        { "id": "a", "text": "Tvåfrontskriget band resurser i både öst och väst" },
+        { "id": "b", "text": "USA:s industriella kapacitet var långt större än axelmakternas" },
+        { "id": "c", "text": "Tyskland saknade tillräcklig tillgång till olja och andra råvaror för ett långt krig" },
+        { "id": "d", "text": "Tyskland hade sämre utbildade soldater än de allierade från början" }
+      ],
+      "answers": ["a", "b", "c"],
+      "points": 2,
+      "explanation": "De tre första är strukturella förklaringar som forskningen lyfter fram: geografi, ekonomi och råvaror. Alternativ d håller inte — den tyska armén var tvärtom välutbildad och effektiv, och det är just därför de tidiga framgångarna blev så stora. Poängen är att taktisk skicklighet inte räckte mot ett underläge i resurser.",
+      "hint": "Tänk på skillnaden mellan att vinna enskilda slag och att orka med ett långt krig."
+    },
+    {
+      "id": "q-analys-kallkritik",
+      "type": "mcq",
+      "topicId": "foljder",
+      "level": 3,
+      "prompt": "Du hittar en tysk tidningsartikel från 1942 som beskriver läget vid östfronten som mycket gynnsamt. Vad är den viktigaste källkritiska invändningen?",
+      "options": [
+        { "id": "a", "text": "Artikeln är för gammal för att kunna säga något om kriget" },
+        { "id": "b", "text": "Tysk press var censurerad och användes som propaganda, så innehållet är tendentiöst" },
+        { "id": "c", "text": "Tidningar är alltid opålitliga källor och kan inte användas" },
+        { "id": "d", "text": "Artikeln är skriven på tyska och kan ha översatts fel" }
+      ],
+      "answer": "b",
+      "points": 2,
+      "explanation": "Tendens är problemet: under nazistregimen var pressen styrd av propagandaministeriet och skulle upprätthålla stridsmoralen, så uppgifter om läget kan vara medvetet skönmålade. Observera att källan ändå är användbar — men som källa till vad regimen ville att tyskarna skulle tro, inte till hur läget faktiskt var. Alternativ a och c är för svepande: närhet i tid är normalt en styrka, och tidningar används ständigt som historiska källor.",
+      "hint": "Fråga dig vad källan faktiskt är ett bra bevis för."
+    },
+    {
+      "id": "q-analys-jamfor",
+      "type": "short",
+      "topicId": "orsaker",
+      "level": 3,
+      "prompt": "Vilket begrepp beskriver den freds­politik som i efterhand ofta anges som en orsak till att Hitler vågade gå längre och längre?",
+      "accept": ["eftergiftspolitik", "eftergiftspolitiken", "appeasement", "eftergifts politik"],
+      "spellingTolerance": true,
+      "points": 2,
+      "explanation": "Eftergiftspolitiken (appeasement) innebar att man gick med på Hitlers krav för att undvika krig. Argumentet i efterhand är att varje eftergift stärkte hans övertygelse om att västmakterna inte skulle ingripa. Samtidigt är det värt att komma ihåg motargumentet: minnet av första världskrigets fasor gjorde att få politiker vågade riskera ett nytt storkrig 1938."
+    },
+    {
+      "id": "q-analys-nurnberg",
+      "type": "truefalse",
+      "topicId": "foljder",
+      "level": 3,
+      "prompt": "En central princip från Nürnbergrättegångarna är att en person kan hållas ansvarig för brott mot mänskligheten även om han eller hon följde order.",
+      "answer": true,
+      "points": 2,
+      "explanation": "Sant. Att handla på order friade inte från ansvar — den principen blev en av rättegångarnas viktigaste efterverkningar och är i dag en grundsten i internationell straffrätt. Rättegångarna kritiserades samtidigt för att vara segrarnas rättvisa, eftersom allierade övergrepp inte prövades."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "prov-niva-1",
+      "title": "Nivå 1 – Grunder",
+      "level": 1,
+      "description": "Årtal, personer och begrepp. Kan du grunderna?",
+      "timeLimitMinutes": 10,
+      "questionIds": ["q-start-datum", "q-versailles", "q-hitler-ar", "q-blixtkrig", "q-tf-sverige", "q-pearl-harbor", "q-cloze-1939"]
+    },
+    {
+      "id": "prov-niva-2",
+      "title": "Nivå 2 – Förståelse",
+      "level": 2,
+      "description": "Förklara samband och orsaker.",
+      "timeLimitMinutes": 15,
+      "questionIds": ["q-multi-allierade", "q-tvafront", "q-stalingrad", "q-cloze-vandpunkter", "q-tf-eftergift", "q-multi-orsaker", "q-forintelsen-antal", "q-fn"]
+    },
+    {
+      "id": "prov-niva-3",
+      "title": "Nivå 3 – Analys",
+      "level": 3,
+      "description": "Källkritik och resonemang i stil med nationella provet.",
+      "timeLimitMinutes": 20,
+      "questionIds": ["q-analys-vande", "q-analys-kallkritik", "q-analys-jamfor", "q-analys-nurnberg"]
+    }
+  ]
+}

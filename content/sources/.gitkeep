@@ -1,0 +1,6 @@
+Put the original PDFs, scans and photos of her textbook pages in this directory.
+
+Nothing here is ever committed: the directory is gitignored and a pre-commit hook
+blocks it even from `git add -f`. Git history is permanent.
+
+Only the derived JSON packs in content/packs/ belong in the repo.

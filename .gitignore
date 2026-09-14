@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+*.tsbuildinfo
+dev-dist/
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------------------------------------------------------------------------
+# NOTHING IN content/ IS COMMITTED.
+#
+# Not the source material (her teachers' PDFs, scans, photos and slide decks),
+# and NOT the generated packs either. The packs quote her teachers' own
+# material -- the genetics pack carries 51 instuderingsfrågor verbatim, one of
+# which is on the prov -- so a pack is as sensitive as the scan it came from.
+#
+# Packs are generated on this machine and sent to her phone directly, where the
+# app's import screen loads them. The build therefore ships as an empty shell,
+# which is what makes it safe to host publicly.
+#
+# Git history is permanent. See docs/CONTENT_GUIDE.md.
+#
+# This is an ALLOWLIST, and it allows only the directory markers. A per-file
+# exception would be the obvious thing to write and the wrong thing: whatever
+# file it named would eventually be overwritten with real material. The test
+# suite's own sample pack lives in src/test/ for exactly that reason.
+/content/*
+!/content/packs/
+!/content/assets/
+!/content/sources/
+content/packs/*
+!content/packs/.gitkeep
+content/assets/*
+!content/assets/.gitkeep
+content/sources/*
+!content/sources/.gitkeep
+# ---------------------------------------------------------------------------
