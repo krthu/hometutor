@@ -63,6 +63,14 @@ describe('home screen', () => {
     expect(screen.getByText('Dags att plugga')).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /Framsteg/ })).toBeInTheDocument();
   });
+
+  it('links to the import screen when subjects are already installed', async () => {
+    const { user } = setup();
+    await waitForHome();
+
+    await user.click(screen.getByRole('link', { name: 'Lägg till ett ämne' }));
+    expect(await screen.findByRole('heading', { name: 'Importera innehåll' })).toBeInTheDocument();
+  });
 });
 
 describe('navigating to a subject', () => {

@@ -93,7 +93,8 @@ Do **not** commit the pack. The pre-commit hook refuses anything under
 
 ## Getting a pack onto a device
 
-The app has an unlinked import screen at `#/import`. **Välj fil…** opens the
+The import screen (`#/import`) is reached from **Lägg till ett ämne** at the
+bottom of the home screen. **Välj fil…** opens the
 device's file picker — AirDrop the `.json` first and it is two taps on a phone.
 The paste box beside it is the desktop path. Either way the pack is validated on
 the spot and stored on that device only, in IndexedDB.

@@ -23,8 +23,8 @@ export function Home() {
 
   if (packs.length === 0) {
     // The deployed build ships empty on purpose, so this is the first thing she
-    // sees on a new device. Import is otherwise unlinked -- without this button
-    // there is no way to reach it and no way to get any content at all.
+    // sees on a new device. Without this button there is no way to reach import
+    // and no way to get any content at all.
     return (
       <>
         <PageTitle>{sv.appName}</PageTitle>
@@ -116,6 +116,10 @@ export function Home() {
           </section>
         ))}
       </div>
+
+      <Link to="/import" className={buttonClasses('secondary', true, 'mt-6')}>
+        {sv.home.addSubject}
+      </Link>
     </>
   );
 }

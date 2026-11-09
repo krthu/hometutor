@@ -24,6 +24,7 @@ export const sv = {
     noContentAction: 'Lägg till ett ämne',
     continue: 'Fortsätt där du slutade',
     subjects: 'Ämnen',
+    addSubject: 'Lägg till ett ämne',
     questionCount: (n: number) => `${n} frågor`,
     topicCount: (n: number) => (n === 1 ? '1 område' : `${n} områden`),
   },
